@@ -5,7 +5,6 @@ namespace Sender
     {
         internal void SendDataToReceiverViaConsole(string data)
         {
-            
             Console.WriteLine(data);
         }
     }

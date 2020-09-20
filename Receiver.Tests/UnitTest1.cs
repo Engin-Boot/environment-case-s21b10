@@ -1,4 +1,5 @@
 using System;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Xunit;
 
 namespace Receiver.Tests

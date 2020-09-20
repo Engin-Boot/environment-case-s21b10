@@ -7,9 +7,12 @@ namespace Sender.Tests
 {
     public class SenderTests
     {
-        string EmptyTestDataPath = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\EmptyTestData.csv";
-        string NonEmptyTestDataPath = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\TemperatureAndHumidityData.csv";
-        string NonEmptyTestDataPathWithoutHeaders = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\TemperatureHumidityDataWithoutHeader.csv";
+        //string EmptyTestDataPath = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\EmptyTestData.csv";
+        //string NonEmptyTestDataPath = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\TemperatureAndHumidityData.csv";
+        //string NonEmptyTestDataPathWithoutHeaders = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\TemperatureHumidityDataWithoutHeader.csv";
+        string EmptyTestDataPath = @"D:\a\environment-case-s21b10\environment-case-s21b10\EmptyTestData.csv";
+        string NonEmptyTestDataPath = @"D:\a\environment-case-s21b10\environment-case-s21b10\TemperatureAndHumidityData.csv";
+        string NonEmptyTestDataPathWithoutHeaders = @"D:\a\environment-case-s21b10\environment-case-s21b10\TemperatureHumidityDataWithoutHeader.csv";
 
 
         readonly FileReader _read = new FileReader();

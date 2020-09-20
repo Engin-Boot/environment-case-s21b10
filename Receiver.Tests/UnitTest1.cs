@@ -122,7 +122,7 @@ namespace Receiver.Tests
         }
 
         [Theory]
-        [InlineData("2.1e311")]
+        [InlineData("e,y")]
         public void WhenDataIsInvalidThenIsDataValidReturnsFalse(string input)
         {
             Analyzer analyzeObj = new Analyzer();

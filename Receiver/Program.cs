@@ -5,7 +5,7 @@ namespace Receiver
     public delegate string AlertDelegate(string parameterName, string message, string parameterValue);
     class Program
     {
-        static int Main()
+        static void Main()
         {
             string ReadConsole()
             {
@@ -22,11 +22,8 @@ namespace Receiver
             while ((receivedData = ReadConsole()) != null)
             {
                 analyzeObj.DataInterpretation(receivedData, alertDelObj);
-                //return 1;
+                
             }
-
-            Console.ReadLine();
-            return 0;
         }
     }
 

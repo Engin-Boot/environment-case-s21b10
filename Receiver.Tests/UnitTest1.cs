@@ -133,16 +133,6 @@ namespace Receiver.Tests
             Assert.False(actual);
 
         }
-
-        [Fact]
-        public void WhenMainIsWorking()
-        {
-            Program obj = new Program();
-            
-
-        }
-
-
     }
 
 }

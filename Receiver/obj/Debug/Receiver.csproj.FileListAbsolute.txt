@@ -1,0 +1,7 @@
+D:\C#\EnvironmentCaseStudy\Receiver\bin\Debug\Receiver.exe.config
+D:\C#\EnvironmentCaseStudy\Receiver\bin\Debug\Receiver.exe
+D:\C#\EnvironmentCaseStudy\Receiver\bin\Debug\Receiver.pdb
+D:\C#\EnvironmentCaseStudy\Receiver\obj\Debug\Receiver.csprojAssemblyReference.cache
+D:\C#\EnvironmentCaseStudy\Receiver\obj\Debug\Receiver.csproj.CoreCompileInputs.cache
+D:\C#\EnvironmentCaseStudy\Receiver\obj\Debug\Receiver.exe
+D:\C#\EnvironmentCaseStudy\Receiver\obj\Debug\Receiver.pdb

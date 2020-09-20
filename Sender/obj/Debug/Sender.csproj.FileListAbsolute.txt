@@ -1,0 +1,7 @@
+D:\C#\EnvironmentCaseStudy\Sender\obj\Debug\Sender.csprojAssemblyReference.cache
+D:\C#\EnvironmentCaseStudy\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
+D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\Sender.exe.config
+D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\Sender.exe
+D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\Sender.pdb
+D:\C#\EnvironmentCaseStudy\Sender\obj\Debug\Sender.exe
+D:\C#\EnvironmentCaseStudy\Sender\obj\Debug\Sender.pdb

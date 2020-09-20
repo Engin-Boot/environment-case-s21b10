@@ -1,33 +1,33 @@
-﻿using System;
-using System.Timers;
-
+using System;
 
 namespace Receiver
 {
-    public delegate void AlertDelegate(string parameterName, string message, string parameterValue);
+    public delegate string AlertDelegate(string parameterName, string message, string parameterValue);
     class Program
     {
-        static void Main(string[] args)
+        static int Main()
         {
-            
-            
-        string Readconsole()
+            string ReadConsole()
             {
                 string data = Console.ReadLine();
                 return data;
             }
 
             Analyzer analyzeObj = new Analyzer();
-           // ConsoleAlerter alerter = new ConsoleAlerter();
-            //AlertDelegate alertDelObj = alerter.SendAlert;
+            ConsoleAlerter alerter = new ConsoleAlerter();
+            AlertDelegate alertDelObj = alerter.SendAlert;
 
 
-            string receiveddata;
-            while ((receiveddata = Readconsole()) != null)
+            string receivedData;
+            while ((receivedData = ReadConsole()) != null)
             {
-                //analyzeObj.DataInterpretation(receiveddata, alertDelObj);
+                analyzeObj.DataInterpretation(receivedData, alertDelObj);
+                //return 1;
             }
 
+            Console.ReadLine();
+            return 0;
         }
     }
+
 }

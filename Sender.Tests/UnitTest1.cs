@@ -56,6 +56,15 @@ namespace Sender.Tests
             Assert.True(data.Count > 0);
             sr.Dispose();
         }
+        [Fact]
+        public void WhenDataSenderCalledStringIsPrintedOnConsole()
+        {
+            DataSenderViaConsole sendData=new DataSenderViaConsole();
+            string dataToBeSend = "89,78";
+            string data=sendData.SendDataToReceiverViaConsole(dataToBeSend);
+            Assert.Equal(data,dataToBeSend);
+        }
+
 
     }
 }

@@ -17,4 +17,58 @@
     <ProjectReference Include="..\Receiver\Receiver.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="xunit.abstractions">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.abstractions.2.0.3\lib\net35\xunit.abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.analyzers">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.assert">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.assert.2.4.1\lib\netstandard1.1\xunit.assert.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.core">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.extensibility.core.2.4.1\lib\net452\xunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.execution.desktop">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.extensibility.execution.2.4.1\lib\net452\xunit.execution.desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.execution.dotnet">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.extensibility.execution.2.4.1\lib\netstandard1.1\xunit.execution.dotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.reporters.net452">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.reporters.net452.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.reporters.netcoreapp10">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.reporters.netstandard15">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\uap10.0.16299\xunit.runner.reporters.netstandard15.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.tdnet">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.extensibility.core.2.4.1\lib\net452\xunit.runner.tdnet.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.utility.net452">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.extensibility.core.2.4.1\lib\net452\xunit.runner.utility.net452.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.utility.netcoreapp10">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.utility.netstandard15">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\uap10.0.16299\xunit.runner.utility.netstandard15.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.utility.uwp10">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\uap10.0.16299\xunit.runner.utility.uwp10.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.visualstudio.dotnetcore.testadapter">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.visualstudio.testadapter">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.testadapter.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.visualstudio.uwp.testadapter">
+      <HintPath>..\..\..\..\..\Documents\environment-case-s21b10\packages\xunit.runner.visualstudio.2.4.3\build\uap10.0.16299\xunit.runner.visualstudio.uwp.testadapter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

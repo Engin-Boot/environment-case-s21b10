@@ -34,15 +34,15 @@ namespace Sender.Tests
         [Fact]
         public void TestWhenFileEmpty()
         {
-            var data = _read.CheckFileExists(EmptyTestDataPath);
-            Assert.True(data.Count == 0);
+            DataSenderViaConsole sendData=new DataSenderViaConsole();
+            Assert.True(sendData.SendDataToReceiver(EmptyTestDataPath)==0);
 
         }
         [Fact]
         public void TestWhenFileIsNotEmpty()
         {
-            var data = _read.CheckFileExists(NonEmptyTestDataPath);
-            Assert.True(data.Count > 0);
+            DataSenderViaConsole sendData = new DataSenderViaConsole();
+            Assert.True(sendData.SendDataToReceiver(NonEmptyTestDataPath) == 1);
 
         }
         [Fact]

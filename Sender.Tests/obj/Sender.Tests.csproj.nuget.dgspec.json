@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\EnvironmentCaseStudy\\Sender.Tests\\Sender.Tests.csproj": {}
+    "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender.Tests\\Sender.Tests.csproj": {}
   },
   "projects": {
-    "D:\\C#\\EnvironmentCaseStudy\\Sender.Tests\\Sender.Tests.csproj": {
+    "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender.Tests\\Sender.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\EnvironmentCaseStudy\\Sender.Tests\\Sender.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender.Tests\\Sender.Tests.csproj",
         "projectName": "Sender.Tests",
-        "projectPath": "D:\\C#\\EnvironmentCaseStudy\\Sender.Tests\\Sender.Tests.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\EnvironmentCaseStudy\\Sender.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender.Tests\\Sender.Tests.csproj",
+        "packagesPath": "C:\\Users\\Dell1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\C#\\EnvironmentCaseStudy\\Sender\\Sender.csproj": {
-                "projectPath": "D:\\C#\\EnvironmentCaseStudy\\Sender\\Sender.csproj"
+              "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender\\Sender.csproj": {
+                "projectPath": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender\\Sender.csproj"
               }
             }
           }
@@ -52,7 +55,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -78,11 +81,11 @@
         }
       }
     },
-    "D:\\C#\\EnvironmentCaseStudy\\Sender\\Sender.csproj": {
+    "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender\\Sender.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\C#\\EnvironmentCaseStudy\\Sender\\Sender.csproj",
+        "projectUniqueName": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender\\Sender.csproj",
         "projectName": "Sender",
-        "projectPath": "D:\\C#\\EnvironmentCaseStudy\\Sender\\Sender.csproj"
+        "projectPath": "C:\\Users\\Dell1\\Source\\Repos\\Engin-Boot\\environment-case-s21b10\\Sender\\Sender.csproj"
       },
       "frameworks": {
         "net472": {}

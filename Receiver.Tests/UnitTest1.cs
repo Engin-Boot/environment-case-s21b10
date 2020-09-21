@@ -125,9 +125,9 @@ namespace Receiver.Tests
         [InlineData("e,y")]
         public void WhenDataIsInvalidThenIsDataValidReturnsFalse(string input)
         {
-            Analyzer analyzeObj = new Analyzer();
+            
             ConsoleAlerter alerter = new ConsoleAlerter();
-            AlertDelegate alertDelObj = alerter.SendAlert;
+            
             SystemTemp.ParameterValue = input;
             bool actual = SystemTemp.IsDataValid();
             Assert.False(actual);

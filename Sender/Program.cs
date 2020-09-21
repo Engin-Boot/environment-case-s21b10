@@ -12,7 +12,7 @@ namespace Sender
            // string path = @"D:\C#\EnvironmentCaseStudy\Sender\bin\Debug\TemperatureAndHumidityData.csv";
             string path = @"D:\a\environment-case-s21b10\environment-case-s21b10\TemperatureAndHumidityData.csv";
             FileReader readFile = new FileReader();
-            DataSender sendData = new DataSender();
+            DataSenderViaConsole sendData=new DataSenderViaConsole();
 
             
             var data = readFile.CheckFileExists(path);

@@ -13,7 +13,7 @@ namespace Receiver
             char[] separator = new char[] { ',' };
             string[] separatedData = inputData.Split(separator, StringSplitOptions.RemoveEmptyEntries);
 
-            if (separatedData.Length != 0)
+            if (separatedData.Length > 1)
             {
                 SystemTemp.ParameterValue = separatedData[0];
                 SystemRelHumidity.ParameterValue = separatedData[1];
